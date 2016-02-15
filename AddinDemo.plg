@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AddinDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/AddinDemo.res" /d "NDEBUG" /d "_AFXDLL" "D:\My Program\Stock\AddinDemo\AddinDemo.rc"" 
+Creating temporary file "C:\Users\Weiwei\AppData\Local\Temp\RSP9D3E.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/AddinDemo.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\My Program\Stock\AddinDemo\AddinDemo.cpp"
+"D:\My Program\Stock\AddinDemo\MainWindowDlg.cpp"
+"D:\My Program\Stock\AddinDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Weiwei\AppData\Local\Temp\RSP9D3E.tmp" 
+Creating temporary file "C:\Users\Weiwei\AppData\Local\Temp\RSP9D3F.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/AddinDemo.pdb" /map:"Release/AddinDemo.map" /debug /machine:I386 /def:".\AddinDemo.def" /out:"D:\Weisoft Stock/AddinDemo.adi" /implib:"Release/AddinDemo.lib" 
+".\Release\AddinDemo.obj"
+".\Release\MainWindowDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\AddinDemo.res"
+]
+Creating command line "link.exe @C:\Users\Weiwei\AppData\Local\Temp\RSP9D3F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+AddinDemo.cpp
+MainWindowDlg.cpp
+StdAfx.cpp
+Linking...
+   Creating library Release/AddinDemo.lib and object Release/AddinDemo.exp
+
+
+
+<h3>Results</h3>
+AddinDemo.adi - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

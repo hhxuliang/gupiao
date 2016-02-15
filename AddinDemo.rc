@@ -1,0 +1,242 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AddinDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "AddinDemo DLL"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "AddinDemo"
+            VALUE "LegalCopyright", "版权所有 (C) 2009"
+            VALUE "OriginalFilename", "AddinDemo.DLL"
+            VALUE "ProductName", "AddinDemo Dynamic Link Library"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN_WINDOW DIALOGEX 0, 0, 573, 406
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "演示插件"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "1组",IDC_STATIC,7,68,559,52
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G1_QI,94,105,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G1_GU,94,92,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G1_GOU,94,78,389,8
+    LTEXT           "期货",IDC_STATIC,21,106,17,8
+    EDITTEXT        IDC_EDIT_G1_GOU,43,76,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G1_GU,43,90,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G1_QI,43,103,46,14,ES_AUTOHSCROLL
+    LTEXT           "沽权",IDC_STATIC,21,93,17,8
+    LTEXT           "购权",IDC_STATIC,21,79,17,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G2_GOU,93,133,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G2_GU,93,147,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G2_QI,93,161,389,8
+    LTEXT           "购权",IDC_STATIC,21,135,17,8
+    LTEXT           "沽权",IDC_STATIC,21,149,17,8
+    EDITTEXT        IDC_EDIT_G2_GOU,43,131,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G2_GU,43,145,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G2_QI,43,159,46,14,ES_AUTOHSCROLL
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G3_GOU,94,190,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G3_GU,94,204,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G3_QI,94,217,389,8
+    LTEXT           "期货",IDC_STATIC,21,161,17,8
+    LTEXT           "购权",IDC_STATIC,21,191,17,8
+    LTEXT           "沽权",IDC_STATIC,21,205,17,8
+    EDITTEXT        IDC_EDIT_G3_GOU,43,188,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G3_GU,43,202,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G3_QI,43,215,46,14,ES_AUTOHSCROLL
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G4_GOU,93,244,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G4_GU,93,258,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G4_QI,93,270,389,8
+    LTEXT           "期货",IDC_STATIC,21,218,17,8
+    LTEXT           "购权",IDC_STATIC,21,244,17,8
+    LTEXT           "沽权",IDC_STATIC,21,258,17,8
+    EDITTEXT        IDC_EDIT_G4_GOU,43,242,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G4_GU,43,256,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G4_QI,43,268,46,14,ES_AUTOHSCROLL
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G5_GOU,93,300,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G5_GU,93,314,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G5_QI,93,326,389,8
+    LTEXT           "期货",IDC_STATIC,21,272,17,8
+    LTEXT           "购权",IDC_STATIC,21,300,17,8
+    LTEXT           "沽权",IDC_STATIC,21,314,17,8
+    EDITTEXT        IDC_EDIT_G5_GOU,43,298,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G5_GU,43,312,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G5_QI,43,324,46,14,ES_AUTOHSCROLL
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G6_GOU,93,355,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G6_GU,93,369,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_G6_QI,93,381,389,8
+    LTEXT           "期货",IDC_STATIC,21,328,17,8
+    LTEXT           "购权",IDC_STATIC,21,355,17,8
+    LTEXT           "沽权",IDC_STATIC,21,369,17,8
+    EDITTEXT        IDC_EDIT_G6_GOU,43,353,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G6_GU,43,367,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G6_QI,43,379,46,14,ES_AUTOHSCROLL
+    LTEXT           "期货",IDC_STATIC,21,383,17,8
+    GROUPBOX        "2组",IDC_STATIC,7,123,559,53
+    GROUPBOX        "3组",IDC_STATIC,7,179,559,53
+    GROUPBOX        "4组",IDC_STATIC,7,233,559,53
+    GROUPBOX        "6组",IDC_STATIC,7,344,559,53
+    GROUPBOX        "5组",IDC_STATIC,7,288,559,53
+    GROUPBOX        "上证行情",IDC_STATIC,7,12,559,53
+    LTEXT           "注册品种",IDC_STATIC_TEXT_SELF3,94,49,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_SELF2,94,36,389,8
+    LTEXT           "注册品种",IDC_STATIC_TEXT_SELF1,94,22,389,8
+    EDITTEXT        IDC_EDIT_SELF1,43,20,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SELF2,43,34,46,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SELF3,43,47,46,14,ES_AUTOHSCROLL
+    LTEXT           "套利",IDC_STATIC_TEXT_RESULT2,483,132,81,40
+    LTEXT           "套利",IDC_STATIC_TEXT_RESULT3,484,188,80,40
+    LTEXT           "套利",IDC_STATIC_TEXT_RESULT4,483,242,81,40
+    LTEXT           "套利",IDC_STATIC_TEXT_RESULT5,483,298,81,40
+    LTEXT           "套利",IDC_STATIC_TEXT_RESULT6,484,358,80,40
+    LTEXT           "套利",IDC_STATIC_TEXT_RESULT1,483,76,81,40
+    LTEXT           "套利",IDC_STATIC_TEXT_COUNT,540,7,18,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_MAIN_WINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 566
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 398
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\AddinDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
